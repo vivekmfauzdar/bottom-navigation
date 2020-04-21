@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/clr"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="110dp"
+        android:id="@+id/profilepic"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/viv"
+        app:civ_border_width="5dp"
+        app:civ_border_color="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtemail"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/text"
+        android:text="who owns my life"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+
+
+    <Button
+        android:text="Follow"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button"
+        android:layout_marginHorizontal="110dp"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+
+
+   <Button
+       android:id="@+id/logout"
+       android:text="Logout"
+       android:layout_marginHorizontal="110dp"
+       android:background="#0A79DF"
+       android:textColor="@android:color/white"
+       android:layout_marginTop="40dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+   </Button>
+
+</LinearLayout>
