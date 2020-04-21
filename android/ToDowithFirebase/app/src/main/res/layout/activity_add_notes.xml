@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/black"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNotes">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/linear"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <ImageView
+            android:src="@drawable/todolist"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="120dp">
+
+        </ImageView>
+
+        <EditText
+            android:id="@+id/title"
+            android:hint="Title"
+            android:inputType="text"
+            android:background="@drawable/background"
+            android:padding="20dp"
+            android:textColor="@android:color/black"
+            android:layout_marginHorizontal="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/description"
+            android:hint="Description"
+            android:background="@drawable/background"
+            android:textColor="@android:color/black"
+            android:padding="20dp"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+        <Button
+            android:onClick="addnotes"
+            android:id="@+id/save"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:fontFamily="@font/architects_daughter"
+        android:gravity="bottom"
+        android:text="© Powered by Brajendra Singh"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+</LinearLayout>
